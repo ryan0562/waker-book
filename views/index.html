@@ -1,0 +1,24 @@
+<% include include/header.html %>
+    <div class="main" ng-controller="musicListCtroller as musicListCtr">
+        <div class="p-10px music-list-header">
+            <img src="../images/avatar.png" alt="" class="avatar">
+            <div class="right">
+                <div class="tit">我喜欢的音乐<span>(32)</span></div>
+            </div>
+        </div>
+        <div class="music-list">
+            <div class="top"></div>
+            <ul>
+                <li ng-repeat="(key,value) in musicListCtr.musicList track by $index" ng-click="musicListCtr.playMusic(value.link)">
+                    <div class="key">{{key+1}}</div>
+                    <div class="music-info">
+                        <p class="music">{{value.name}}</p>
+                        <p class="singer">{{value.singer}} - {{value.album}}</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <music-player></music-player>
+    </div>
+    
+    <% include include/footer.html %>

@@ -1,0 +1,166 @@
+@import 'base/params';
+@import 'base/iconfont';
+
+html {
+  // font-size: calc(100vw/3.75);
+}
+
+* {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+  font: 14px/1.7 'Microsoft Yahei';
+  background: $bgColor;
+  color: $text;
+  min-height: 100vh;
+}
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote，th, td {
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+fieldset, img {
+  border: 0;
+  vertical-align: middle;
+}
+
+address, caption, cite, code, dfn, em, strong, th, var {
+  font-style: normal;
+  font-weight: normal;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+a, button {
+  text-decoration: none;
+  color: #797979;
+  outline: 0;
+  border: 0;
+  outline: 0;
+}
+
+.main {
+  position: absolute;
+  width: 100%;
+  top: 44px;
+  bottom: 0;
+}
+
+//@each $padding in $px {
+//  .p-#{$padding}px {
+//    padding: #{$padding}px !important;
+//  }
+//  .p-t-#{$padding}px {
+//    padding-top: #{$padding}px !important;
+//  }
+//  .p-b-#{$padding}px {
+//    padding-bottom: #{$padding}px !important;
+//  }
+//  .p-l-#{$padding}px {
+//    padding-left: #{$padding}px !important;
+//  }
+//  .p-r-#{$padding}px {
+//    padding-right: #{$padding}px !important;
+//  }
+//  .p-tb-#{$padding}px {
+//    padding-top: #{$padding}px !important;
+//    padding-bottom: #{$padding}px !important;
+//  }
+//  .p-lr-#{$padding}px {
+//    padding-left: #{$padding}px !important;
+//    padding-right: #{$padding}px !important;
+//  }
+//}
+//
+//@each $padding in $px {
+//  .p-#{$padding} {
+//    padding: #{$padding}% !important;
+//  }
+//  .p-t-#{$padding} {
+//    padding-top: #{$padding}% !important;
+//  }
+//  .p-b-#{$padding} {
+//    padding-bottom: #{$padding}% !important;
+//  }
+//  .p-l-#{$padding} {
+//    padding-left: #{$padding}% !important;
+//  }
+//  .p-r-#{$padding} {
+//    padding-right: #{$padding}% !important;
+//  }
+//  .p-tb-#{$padding} {
+//    padding-top: #{$padding}% !important;
+//    padding-bottom: #{$padding}% !important;
+//  }
+//  .p-lr-#{$padding} {
+//    padding-left: #{$padding}% !important;
+//    padding-right: #{$padding}% !important;
+//  }
+//}
+//
+//@each $margin in $px {
+//  .m-#{$margin}px {
+//    margin: #{$margin}px !important;
+//  }
+//  .m-t-#{$margin}px {
+//    margin-top: #{$margin}px !important;
+//  }
+//  .m-b-#{$margin}px {
+//    margin-bottom: #{$margin}px !important;
+//  }
+//  .m-l-#{$margin}px {
+//    margin-left: #{$margin}px !important;
+//  }
+//  .m-r-#{$margin}px {
+//    margin-right: #{$margin}px !important;
+//  }
+//  .m-tb-#{$margin}px {
+//    margin-top: #{$margin}px !important;
+//    margin-bottom: #{$margin}px !important;
+//  }
+//  .m-lr-#{$margin}px {
+//    margin-left: #{$margin}px !important;
+//    margin-right: #{$margin}px !important;
+//  }
+//}
+//
+//@each $margin in $px {
+//  .p-#{$margin} {
+//    margin: #{$margin}% !important;
+//  }
+//  .p-t-#{$margin} {
+//    margin-top: #{$margin}% !important;
+//  }
+//  .p-b-#{$margin} {
+//    margin-bottom: #{$margin}% !important;
+//  }
+//  .p-l-#{$margin} {
+//    margin-left: #{$margin} % !important;
+//  }
+//  .p-r-#{$margin} {
+//    margin-right: #{$margin}% !important;
+//  }
+//  .p-tb-#{$margin} {
+//    margin-top: #{$margin}% !important;
+//    margin-bottom: #{$margin}% !important;
+//  }
+//  .p-lr-#{$margin} {
+//    margin-left: #{$margin}% !important;
+//    margin-right: #{$margin}% !important;
+//  }
+//}

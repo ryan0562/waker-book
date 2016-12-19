@@ -1,0 +1,27 @@
+@import 'base/params';
+.header {
+    @include lh(44);
+    color: #fff;
+    background: #d43b33;
+    font-size: 14px;
+    position: relative;
+    .left,.right{
+        position: absolute;
+        top: 0;
+        &>*{
+            display: inline-block;
+            width: 30px;
+            text-align: center;
+        }
+    }
+    .left{
+        left: 10px;
+    }
+    .right{
+        right: 10px;
+    }
+    .center{
+        margin: 0 95px;
+        text-align: center;
+    }
+}

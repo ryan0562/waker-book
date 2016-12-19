@@ -1,0 +1,20 @@
+$bgColor:#fefefe;
+$mainColor:#ce3d3a;
+
+$mainText:#333;
+$text:#666;
+$weakText:#b2b2b2;
+
+$linkText:#477aac;
+
+$fontSize: 10, 12, 14, 16, 18, 20, 22, 24, 26, 28, 30, 32, 34, 36, 38, 40, 46, 50, 60, 78; 
+$px: 2, 3, 5, 6, 10, 15, 20, 25, 30, 40, 50, 60, 70, 80, 90, 100;
+// $per: 5%, 10%, 15%, 20%, 25%, 30%, 40%, 50%, 60%, 70%, 80%, 90%, 100%;
+
+
+// functions
+@mixin lh($num) {
+    height: #{$num}px;
+    line-height: #{$num}px;
+}
+
