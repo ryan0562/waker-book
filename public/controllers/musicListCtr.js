@@ -1,8 +1,9 @@
 App.controller('musicListCtroller', musicListCtroller);
-var player = $('#player')[0];
+
 
 function musicListCtroller($http) {
     var vm = this;
+    var player = document.getElementById("player");
     $http({
             method: "get",
             url: "/musicListData",
