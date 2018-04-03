@@ -5,7 +5,7 @@ function connectServer() {
     var client = mysql.createConnection({
         host: 'rdsi76878631b43m15cf.mysql.rds.aliyuncs.com',
         user: 'wakers',
-        password: 'Zhouxin660269848',
+        password: '...',
         database: 'r7g25wysv2'
     })
     return client;
